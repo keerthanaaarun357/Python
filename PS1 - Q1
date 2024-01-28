@@ -1,0 +1,17 @@
+held = int(input('Enter total no. of classes: '))
+attended = int(input('Enter no. of classes attended: '))
+
+percent = (attended/held)*100
+
+medical = int(input('Medical Proof Availability[0/1]: '))
+
+print(int(percent))
+
+if percent > 75:
+    print("Allowed")
+    
+elif medical == 1:
+    print("Allowed")
+    
+else:
+    print("Not allowed")
