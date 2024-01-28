@@ -1,3 +1,7 @@
+#Earthquake Research Institute of Japan has recorded earthquakes occurring in the year 2021 using the Richter scale. Develop PAC, Algorithm, Flowchart and write a Python program to get the ’n’ (number of times) the earthquake has occurred and print the number of times in which the magnitude was low, medium and high. The magnitude value is given in microns. If the value is less than 5.4(inclusive) in microns then it is low, 5.4 to 7.0 (inclusive) it is medium and more than 7.0 it is high. 
+Also, if the number of times recorded is Zero, display as “No earthquake predicted” and if the number of times recorded is negative, display as “Invalid Input” 
+
+
 n = int(input('Enter no. of earthquakes: '))
 
 if n == 0:
