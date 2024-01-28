@@ -1,0 +1,25 @@
+course = int(input('Enter 1, 2, 3 for course: '))
+
+if course == 1:
+    cost = float(input('Enter cost: '))
+
+    if cost>1000:
+        cost = cost-(cost/10)
+
+    print('%.2f'%cost)
+    
+elif course == 2:
+    cost = float(input('Enter cost: '))
+
+    if cost>750:
+        cost -= cost/20
+
+    print('%.2f'%cost)
+    
+else:
+    cost = float(input('Enter cost: '))
+
+    if cost>500:
+        cost -= cost/10
+
+    print('%.2f'%cost)
