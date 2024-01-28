@@ -1,3 +1,14 @@
+#Write a PAC chart, flowchart, algorithm and python code. Calculate the toll charge, by considering kilometers traveled by vehicle. Display the toll charge of the two-wheeler to be paid as per chart below. 
+Kilometers Traveled        Charge
+KmTr <= 1000 KM            0
+1000 KM < KmTr <= 10000    50
+10000 KM < KmTr <= 20000   150
+20000 KM < KmTr <= 40000   250
+40000 KM < KmTr <= 60000   350
+KmTr > 60000               500
+
+
+
 dis = int(input('Enter the distance: '))
 
 if dis <= 1000:
