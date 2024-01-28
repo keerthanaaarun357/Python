@@ -1,3 +1,6 @@
+#Petrol is collected for Indian Oil Corporation for sales from nearest ‘n’ storage points to the Collection point. Given the amount of petrol from ‘n’ storage points in liters(L) and milliliters (mL), write a PAC chart, flowchart, algorithm and python code to compute the total quantity of oil in the collection point. 
+
+
 n = int(input('Enter No. of storage points: '))
 
 i = 0
