@@ -1,0 +1,31 @@
+n = int(input('Enter no. of earthquakes: '))
+
+if n == 0:
+    print('No earthquake predicted')
+    quit()
+    
+elif n<0:
+    print('Invalid Input')
+    quit()
+
+low = []
+medium = []
+high = []
+
+i = 0
+
+for i in range(0,n):
+    val = float(input('Enter Richter Scale value: '))
+    
+    if val<5.4 or val == 5.4:
+        low.append(val)
+        
+    elif val>5.4 and val < 7.0:
+        medium.append(val)
+        
+    else:
+        high.append(val)
+        
+print(len(low))
+print(len(medium))
+print(len(high))
