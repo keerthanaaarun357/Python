@@ -1,0 +1,20 @@
+n = int(input('Enter No. of storage points: '))
+
+i = 0
+sumL = 0
+summL = 0
+
+for i in range(0,n):
+    L = int(input('Val in liters: '))
+    mL = int(input('Val in mL: '))
+    
+    sumL += L
+    summL += mL    
+    i = i+1
+    
+    if summL>1000:
+        sumL += 1
+        summL -= 1000
+
+print(sumL)
+print(summL)
