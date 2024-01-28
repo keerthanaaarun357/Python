@@ -1,0 +1,19 @@
+dis = int(input('Enter the distance: '))
+
+if dis <= 1000:
+    print('0')
+    
+elif dis <= 10000:
+    print('50')
+    
+elif dis <= 20000:
+    print('150')
+    
+elif dis <= 40000:
+    print('250')
+    
+elif dis <= 60000:
+    print('350')
+    
+else:
+    print('500')
