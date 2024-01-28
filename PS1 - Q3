@@ -1,0 +1,13 @@
+income = int(input('Enter Income: '))
+
+if income > 1000000:
+    tax = 40/100
+    print(int(income*tax))
+    
+elif income > 500000 and income <= 1000000:
+    tax = 2/100
+    print(int(income*tax))
+    
+else:
+    tax = 0
+    print('NIL')
