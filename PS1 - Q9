@@ -1,0 +1,19 @@
+DOB = input('Enter DOB: ')
+
+if len(DOB)<8 or len(DOB)>8:
+    print('Invalid Input')
+    
+else:
+    print(DOB, end = ', ')
+    
+    stepi = (int(DOB[0])+int(DOB[2])+int(DOB[4])+int(DOB[6]))
+    stepii = (int(DOB[1])+int(DOB[3])+int(DOB[5])+int(DOB[7]))
+    stepii = stepii*3
+    
+    sum = str(stepi + stepii)
+    
+    if sum[-1]=='0'':
+        print('Lucky Number')
+        
+    else:
+        print('Not a Lucky Number')
