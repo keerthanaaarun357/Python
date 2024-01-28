@@ -1,3 +1,11 @@
+#Draw a flowchart and construct a python program to accept the monthly income of an employee and display the income tax to be paid at the end of the year according to the following criteria: 
+Annual Income (in Rs)    Income Tax
+> 1000000                4%
+> 500000 and <= 1000000  2%
+<= 500000                NIL
+
+
+
 income = int(input('Enter Income: '))
 
 if income > 1000000:
