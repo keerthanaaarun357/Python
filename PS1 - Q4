@@ -1,0 +1,10 @@
+len = int(input('Enter length of ladder: '))
+theta = int(input('Enter angle in degrees: '))
+
+import math
+
+alpha = (math.pi/180) * theta
+x = (math.sin(alpha))
+
+height = len*x
+print('%.2f'%height)
